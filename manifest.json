@@ -5,6 +5,6 @@
 	"minAppVersion": "0.9.7",
     "description": "Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.",
 	"author": "homu-konamilk",
-	"authorUrl": "https://github.com/homu-konamilk/obsidian-custom-new-file-name",
+	"authorUrl": "https://github.com/homu-konamilk",
 	"isDesktopOnly": false
 }
