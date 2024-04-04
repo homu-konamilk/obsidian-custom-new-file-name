@@ -22,7 +22,7 @@ export default class CustomNewFileNamePlugin extends Plugin
 		this.registerEvent(
 			this.app.workspace.on('file-menu', (menu, file) => {
 				menu.addItem((item) => {
-					item.setTitle('New Note (with Custom Name)')
+					item.setTitle('New note (with custom name)')
 						.onClick(() => {
 							this.createNewFile(file);
 						});
@@ -113,7 +113,7 @@ class CustomNewFileNameSettingTab extends PluginSettingTab
 		containerEl.empty();
 
 		new Setting(containerEl)
-			.setName('New File Name Format')
+			.setName('New file name format')
 			.setDesc('Define the format for new file names. You can use "{{datetime:YYYYMMDDHHmmss}}" to include the current date and time in your format.')
 			.addText(text => text
 				.setPlaceholder(DEFAULT_SETTINGS.fileNameFormat)
