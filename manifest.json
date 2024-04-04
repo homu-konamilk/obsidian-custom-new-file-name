@@ -2,7 +2,7 @@
     "id": "custom-new-file-name",
     "name": "Custom New File Name",
 	"version": "1.0.0",
-	"minAppVersion": "0.9.7",
+	"minAppVersion": "1.5.12",
     "description": "Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.",
 	"author": "homu-konamilk",
 	"authorUrl": "https://github.com/homu-konamilk",
