@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-custom-new-file-name",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.",
 	"main": "main.js",
 	"scripts": {
